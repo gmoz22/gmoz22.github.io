@@ -7,5 +7,9 @@
     </head>
     <body>
         <h1>{{"Hello, Angular!"}}</h1>
+        <div ng-controller="Products as prods">
+            <h1>{{prods.product.name}}</h1>
+            <p>{{prods.product.description}}</p>
+        </div>
     </body>
 </html>
